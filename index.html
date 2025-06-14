@@ -20,7 +20,12 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 0 20px;
+      padding: 5px 5px 5px 5px;
+	  position: fixed;
+	  top: 0;
+	  z-index: 20;
+	  width: 100%;
+	  overflow: hidden;
     }
 
     .logo {
@@ -51,6 +56,7 @@
       font-weight: 570;
       color: #fffbf5;
       font-size: 20px;
+	  letter-spacing: 0.4px;
       margin-left: 10px;
     }
 
@@ -65,7 +71,7 @@
     }
 
     .nav-links a:hover {
-      background-color: #1a5a29;
+      background-color: #d15b2c;
     }
 
     header {
@@ -74,7 +80,7 @@
       background-size: cover;
       background-position: center;
       color: #fffbf5;
-      height: 550px;
+      height: 79vh;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -104,6 +110,7 @@
     header h1 {
       font-weight: 700;
       font-size: 90px;
+	  letter-spacing: 2px;
     }
 
     header h2 {
@@ -161,7 +168,7 @@
       margin: 40px auto;
       background-color: #e86d3c;
       color: #fffbf5;
-      padding: 50px;
+      padding-bottom: 50px;
     }
 
     .onama-kontakt {
@@ -194,17 +201,13 @@
       margin-top: 40px;
     }
 
-    a {
-      color: #217234;
-    }
-
     .onama h2,
     .kontakt h2 {
       font-weight: 700;
     }
   </style>
 </head>
-<body>
+<body id="home">
 
   <nav>
     <div class="logo">
@@ -219,9 +222,12 @@
       <a href="#kontakt">Kontakt</a>
     </div>
   </nav>
-
+<br>
+<br>
+<br>
   <header>
     <div>
+	<br>
 	<br>
 	<br>
 	<br>
@@ -233,8 +239,8 @@
   </header>
 
   <div class="row">
-    <p style="width: 100%; font-size: 23px">We'll meal je aplikacija koja povezuje ljude kroz zajedničko kuhanje. Postupak je jako jednostavan:</p>
-
+    <p style="width: 100%; font-size: 23px; padding-bottom: 23px">We'll meal je aplikacija koja povezuje ljude kroz zajedničko kuhanje. Postupak je jako jednostavan:</p>
+   
     <div class="kartica">
       <h3>1.</h3>
 	  <br>
@@ -256,11 +262,17 @@
       <p>Odaberite vrijeme i mjesto vašeg susreta.</p>
     </div>
 
-    <p style="width: 100%; font-size: 25px">I to je to. <span style="font-weight: 900">Vidimo se za stolom! :D</span></p>
+    <p style="width: 100%; font-size: 23px; padding-top: 23px">I to je to. <span style="font-weight: 900; letter-spacing: 1px;">Vidimo se za stolom! :D</span></p>
   </div>
 
   <div class="video-blok">
+  <h2 style="font-size: 35px; font-weight: 900; letter-spacing: 1px; padding-top: 50px">Promo video</h2>
+  <br>
     <iframe width="840" height="472.5" src="https://www.youtube.com/embed/0PV2QeY8n8g?si=WHR-Mosspe0rndWL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+ <br>
+ <br>
+ <br>
+ <br>
   </div>
 
   <div class="onama-kontakt" id="onama">
@@ -269,7 +281,7 @@
       <p>Mi smo tim koji voli druženja i dobru hranu. </p>
 	  <p>We'll meal je aplikacija koja povezuje ljude kroz hranu, druženja i iskustva.</p>
       <p>Na početnoj stranici dostupni su prijedlozi i recepti za razna jela, a povlačenjem ekrana otvara se prostor za pozivanje drugih korisnika na zajedničko kuhanje. </p>
-	  <p>Oni koji se odluče pridružiti, mogu označiti koje sastojke donose, a zatim se jednostavno dogovara vrijeme i mjesto okupljanja.</p>
+	  <p>Oni koji se odluče pridružiti, mogu označiti koje sastojke donose, a zatim se jednostavno dogovara vrijeme i <br>mjesto okupljanja.</p>
       <p>Tako nastaje savršena prilika za stvaranje novih prijateljstava uz domaća jela.</p>
     </div>
     <div class="kontakt" id="kontakt">
