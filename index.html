@@ -20,7 +20,7 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 5px 5px 5px 5px;
+      padding: 5px 10px 5px 5px;
 	  position: fixed;
 	  top: 0;
 	  z-index: 20;
@@ -171,6 +171,11 @@
       padding-bottom: 50px;
     }
 
+    .player {
+	  aspect-ratio: 16 / 9;
+	  width: 60%;
+	}
+	
     .onama-kontakt {
       display: flex;
       flex-wrap: nowrap;
@@ -268,7 +273,14 @@
   <div class="video-blok">
   <h2 style="font-size: 35px; font-weight: 900; letter-spacing: 1px; padding-top: 50px">Promo video</h2>
   <br>
-    <iframe width="840" height="472.5" src="https://www.youtube.com/embed/0PV2QeY8n8g?si=WHR-Mosspe0rndWL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe  class="player"
+	         src="https://www.youtube.com/embed/0PV2QeY8n8g?si=WHR-Mosspe0rndWL" 
+	         title="YouTube video player" 
+	         frameborder="0" 
+	         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+	         referrerpolicy="strict-origin-when-cross-origin" 
+	         allowfullscreen>
+	</iframe>
  <br>
  <br>
  <br>
